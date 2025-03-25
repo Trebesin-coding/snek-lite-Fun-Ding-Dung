@@ -139,13 +139,13 @@ while running:
             bod2_hitbox = bod2.get_rect(midbottom=(3000, 3000))
             
 
-    if super_evolution > 3:
+    if super_evolution > 0:
         win_screen = win_font.render(f"Perfect Evolution", False, "#FFD700")
         screen.blit(win_screen, (screen_width-1370, screen_height-700))
         player_speed = 0
         player_x = screen_width-1370
         player_y = screen_height-700
-        
+        player_surf = pygame.image.load_extended("perfect.png").convert_alpha()
     
 
     if bod1_hitbox.midbottom ==(3000, 3000) and čas_bod1 > 3000:
