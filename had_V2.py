@@ -70,11 +70,11 @@ font = pygame.font.Font("Bytesized-Regular.ttf", 25)
 win_font = pygame.font.Font("Bytesized-Regular.ttf", 150)
 
 
-theme = pygame.mixer.Sound("le theme.mp3")
+theme = pygame.mixer.Sound("le_theme.mp3")
 theme.set_volume(0.1)
 
-sound = pygame.mixer.Sound("perfect.mp3")
-sound.set_volume(0.1)
+#sound = pygame.mixer.Sound("perfect.mp3")
+#sound.set_volume(0.1)
 
 
 while running:
@@ -176,7 +176,6 @@ while running:
     hodiny_bod1.tick(60)
 
     pygame.display.update()
-
        
 
 
